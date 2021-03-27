@@ -1,9 +1,9 @@
-const express = require('express')
+onst express = require('express')
 const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-  res.send('Hello World! com passo manual')
+  res.send('Teste AWS! Hello via AWS!')
 })
 
 app.listen(port, () => {
